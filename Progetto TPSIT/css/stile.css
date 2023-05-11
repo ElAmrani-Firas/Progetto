@@ -1,0 +1,923 @@
+html{
+    height: 97vh;
+    background: url(../img/versus6.jpg);
+    background-repeat: no-repeat;
+    background-size: cover;
+}
+.block1{
+    display: flex;
+    justify-content: space-around;
+    align-items: center;
+    height: 40%;
+    width: 40%;
+    border: solid 1px black;
+    border-radius: 5%;
+    background-color: rgba(0, 0, 0, 0.0); 
+    box-shadow: 0 4px 8px 0 rgba(255, 255, 255, 0.0), 0 6px 20px 0 rgba(255, 255, 255, 0.0);
+}
+main{
+    display: flex;
+    justify-content: center;
+    align-items: center;
+}
+.btn{
+    background-color: rgba(0, 0, 0, 0.90);
+    border: 1px solid rgb(7, 219, 226);
+    border-radius: 10px 0px 10px 0px;
+    color: rgb(190, 221, 15);
+    padding: 15px 32px;
+    text-align: center;
+    text-decoration: none;
+    width: 280px;
+    margin-top: 30px;
+    font-size: 40px;
+    font-family: Impact, fantasy;
+}
+.block2{
+    display: flex;
+    flex-direction: column;
+    justify-content: flex-start;
+    align-items: flex-start;
+    height: 100%;
+    width: 100%;
+    position: absolute;
+    left: 0%;
+    top: 30%;
+    margin-top: 100px;
+    overflow: hidden;
+}
+p{
+    color: white;
+}
+.img{
+    height: 500px;
+    width: 700px;
+    position: absolute;
+    top: -16%;
+    left: 0%;
+    animation: anim 2s forwards;
+}
+@keyframes anim{
+    0%{
+        left: 70%;
+    }
+    100%{
+        left: 0%;
+    }
+}
+@keyframes anim2{
+    0%{
+        left: 70%;
+    }
+    100%{
+        left: 10%;
+    }
+}
+body{
+    height: 97vh;
+    margin: 0px;
+}
+.tenda{
+    display: none;
+}
+@keyframes anim1{
+    0%{
+        height: 0px;
+    }
+    100%{
+        height: 400px;
+    }
+}
+.tenda + .block2{
+    animation: anim1 6s;
+    animation-fill-mode: forwards;
+    animation-iteration-count: 1;
+
+}
+.btn:hover{
+    font-weight: bold;
+    font-size: 50px;
+    background-color: rgb(47, 44, 44);
+}
+.btn1:hover{
+    font-weight: bold;
+    font-size: 30px;
+    background-color: rgb(47, 44, 44);
+}
+.btn2:hover{
+    font-weight: bold;
+    font-size: 30px;
+    background-color: rgb(47, 44, 44);
+}
+.btn4:hover{
+    font-weight: bold;
+    font-size: 50px;
+    background-color: rgb(47, 44, 44);
+}
+.btn1{
+    background-color: rgba(0, 0, 0, 0.90);
+    border: 1px solid rgb(7, 219, 226);
+    border-radius: 10px 0px 10px 0px;
+    color: rgb(190, 221, 15);
+    padding: 15px 32px;
+    text-align: center;
+    text-decoration: none;
+    width: 280px;
+    margin-top: 30px;
+    font-family: Impact, fantasy;
+}
+.btn2{
+    background-color: rgba(0, 0, 0, 0.90);
+    border: 1px solid rgb(7, 219, 226);
+    border-radius: 10px 0px 10px 0px;
+    color: rgb(190, 221, 15);
+    padding: 15px 32px;
+    text-align: center;
+    text-decoration: none;
+    width: 280px;
+    margin-top: 30px;
+    cursor: pointer;
+    font-family: Impact, fantasy;
+}
+.block3{
+    display: flex;
+    flex-direction: column;
+    justify-content: flex-start;
+    align-items: flex-start;
+    height: 600px;
+    width: 800px;
+    position: absolute;
+    top: 2%;
+    left: 20%;
+    background-color: rgba(0, 0, 0, 0.50);
+    padding: 0px;
+    overflow: scroll;
+    color: white;
+    font-size: xx-large;
+    border: 5px solid rgb(15, 29, 231);
+    border-radius: 25px;
+}
+.p{
+    text-align: center;
+}
+.h1{
+    position: relative;
+    left: 40%;
+}
+.img1{
+    position: relative;
+    left: 22%;
+    margin-bottom: -50px;
+}
+#myVideo {
+    position: fixed;
+    right: 0;
+    bottom: 0;
+    min-width: 100%; 
+    min-height: 100%;
+    z-index: -1;
+}
+.btn4{
+    background-color: rgba(0, 0, 0, 0.90);
+    border: 1px solid rgb(7, 219, 226);
+    border-radius: 10px 0px 10px 0px;
+    color: rgb(190, 221, 15);
+    padding: 15px 32px;
+    text-align: center;
+    text-decoration: none;
+    width: 280px;
+    margin-top: 30px;
+    font-size: 40px;
+    font-family: Impact, fantasy;
+    z-index: 2;
+}
+.block4{
+    background-color: rgba(0, 0, 0, 0.90);
+    border: 5px solid yellow;
+    border-radius: 10px 10px 10px 10px;
+    height: 300px;
+    width: 370px;
+    position: absolute;
+    top: 150px;
+    right: 40px;
+    background-image: url("../img/pikachu_0-removebg-preview.png");
+    background-repeat: no-repeat;
+    background-size: cover;
+    background-size: 70%;
+    background-position: 50%, 50%;
+    display: flex;
+    flex-direction: column;
+    justify-content: center;
+    align-items: center;
+}
+#hp{
+    background-color: rgba(0, 0, 0, 0.90);
+    border: 1px solid rgb(0, 0, 0);
+    border-radius: 10px 10px 10px 10px;
+    height: 70px;
+    width: 165px;
+    position: absolute;
+    bottom: 85%;
+    right: 40px;
+    background-image: url("../img/health5.png");
+    background-repeat: no-repeat;
+    background-size: cover;
+    display: flex;
+    flex-direction: column;
+    justify-content: center;
+    align-items: center;
+}
+#p1{
+    color: yellow;
+    position: absolute;
+    bottom: 75%;
+    right: 40px;
+}
+table{
+    margin: auto;
+}
+#clock{
+    background-color: rgba(0, 0, 0, 0.90);
+    border: 1px solid rgb(7, 219, 226);
+    border-radius: 0px 0px 10px 10px;
+    color: rgb(190, 221, 15);
+    padding: 15px 32px;
+    text-align: center;
+    text-decoration: none;
+    width: 280px;
+    margin-top: 30px;
+    font-size: 40px;
+    font-family: Impact, fantasy;
+    z-index: 2;
+    position: absolute;
+    top: -7%;
+    right: 35%;
+}
+#sel{
+    background-color: rgba(0, 0, 0, 0.90);
+    border: 1px solid rgb(7, 219, 226);
+    color: rgb(190, 221, 15);
+    padding: 15px 32px;
+    text-align: center;
+    text-decoration: none;
+    width: 100%;
+    margin-top: 30px;
+    font-size: 40px;
+    font-family: Impact, fantasy;
+    z-index: 10;
+}
+#sel2{
+    background-color: rgba(0, 0, 0, 0.90);
+    border: 1px solid rgb(7, 219, 226);
+    color: rgb(190, 221, 15);
+    padding: 15px 32px;
+    text-align: center;
+    text-decoration: none;
+    width: 100%;
+    margin-top: 30px;
+    font-size: 40px;
+    font-family: Impact, fantasy;
+    z-index: 10;
+}
+#message{
+    background-color: rgba(0, 0, 0, 0.90);
+    border: 1px solid rgb(7, 219, 226);
+    color: rgb(190, 221, 15);
+    padding: 15px 32px;
+    text-align: center;
+    text-decoration: none;
+    width: 100%;
+    margin-top: 30px;
+    font-size: 40px;
+    font-family: Impact, fantasy;
+    z-index: 10;
+    position: absolute;
+    top: 35%;
+    right: 0%;
+}
+#loading{
+    background-color: rgb(0, 0, 0);
+    border: 1px solid rgb(7, 219, 226);
+    color: rgb(190, 221, 15);
+    text-align: center;
+    text-decoration: none;
+    width: 99.8%;
+    height: 99.7%;
+    font-size: 40px;
+    font-family: Impact, fantasy;
+    z-index: 100;
+    position: absolute;
+    top: 0%;
+    display: flex;
+    flex-direction: column;
+    justify-content: center;
+    align-items: center;
+}
+@keyframes spin {
+    0% { transform: rotate(0deg); }
+    100% { transform: rotate(360deg); }
+}
+#loader{
+    border: 16px solid #f3f3f3;
+    border-radius: 50%;
+    border-top: 16px solid #3498db;
+    width: 60px;
+    height: 60px;
+    animation: spin 2s linear infinite;
+  }
+  
+#message2{
+    background-color: rgba(0, 0, 0, 0.90);
+    border: 1px solid rgb(7, 219, 226);
+    color: rgb(190, 221, 15);
+    padding: 15px 32px;
+    text-align: center;
+    text-decoration: none;
+    width: 50%;
+    margin-top: 30px;
+    font-size: 40px;
+    font-family: Impact, fantasy;
+    z-index: 10;
+    position: absolute;
+    top: 35%;
+    right: 20%;
+}
+#message3{
+    background-color: rgba(0, 0, 0, 0.90);
+    border: 1px solid rgb(7, 219, 226);
+    color: rgb(190, 221, 15);
+    padding: 15px 32px;
+    text-align: center;
+    text-decoration: none;
+    width: 50%;
+    margin-top: 30px;
+    font-size: 40px;
+    font-family: Impact, fantasy;
+    z-index: 10;
+    position: absolute;
+    top: 35%;
+    right: 20%;
+}
+td{
+    border-top: solid 1px black;
+}  
+th{
+    color: yellow;
+} 
+#hp2{
+    background-color: rgba(0, 0, 0, 0.90);
+    border: 1px solid rgb(0, 0, 0);
+    border-radius: 10px 10px 10px 10px;
+    height: 70px;
+    width: 170px;
+    position: absolute;
+    bottom: 55%;
+    left: 40px;
+    background-image: url("../img/health5.png");
+    background-repeat: no-repeat;
+    background-size: cover;
+    display: flex;
+    flex-direction: column;
+    justify-content: center;
+    align-items: center;
+}
+.pikachuface{
+    width: 110px;
+    height: 100px;
+    position: absolute;
+    top: 0px;
+    right: 295px;
+    z-index: 1;
+}
+.block5{
+    background-color: rgba(0, 0, 0, 0.90);
+    border: 5px solid green;
+    border-radius: 10px 10px 10px 10px;
+    height: 270px;
+    width: 360px;
+    position: absolute;
+    bottom: 3%;
+    left: 40px;
+    background-image: url("../img/3DS_-_Shantae_and_the_Pirates_Curse_-_Archer_Right1-removebg-preview.png");
+    background-repeat: no-repeat;
+    background-size: cover;
+    display: flex;
+    flex-direction: column;
+    justify-content: center;
+    align-items: center;
+}
+#p2{
+    color: green;
+    position: absolute;
+    bottom: 45%;
+    left: 40px;
+}
+.hp1{
+    width: 300px;
+    height: 100px;
+    position: absolute;
+    top: 235px;
+    left: 40px;
+    z-index: -1;
+}
+.bulbasaurface{
+    width: 120px;
+    height: 120px;
+    position: absolute;
+    top: 225px;
+    left: 30px;
+    z-index: 1;
+}
+.pikachu{
+    width: 165px;
+    height: 150px;
+    position: relative;
+    top: 10px;
+    right: 0px;
+}
+.bulbasaur{
+    width: 230px;
+    height: 200px;
+    position: relative;
+    top: 10px;
+    left: 10px;
+}
+.thunder{
+    width: 130px;
+    height: 130px;
+    position: absolute;
+    top: -200px;
+    left: 170px;
+    z-index: 3;
+}
+.th:hover{
+    background-color: rgb(99, 99, 7);
+}
+.th1:hover{
+    background-color: rgb(64, 64, 64);
+}
+.th2:hover{
+    background-color: rgb(64, 64, 64);
+}
+.th3:hover{
+    background-color: rgb(2, 59, 2);
+}
+.th{
+    border: solid 5px yellow;
+    z-index: 3;
+    position: absolute;
+    top: 80%;
+    right: 70px;
+    height: 100px;
+    width: 100px;
+    background-color: rgba(0, 0, 0, 0.0);
+    cursor: pointer;
+}
+.th1{
+    border: solid 5px gray;
+    z-index: 3;
+    position: absolute;
+    top: 80%;
+    right: 300px;
+    height: 100px;
+    width: 100px;
+    background-color: rgba(0, 0, 0, 0.0);
+    cursor: pointer;   
+}
+.th2{
+    border: solid 5px gray;  
+    z-index: 3;
+    position: absolute;
+    top: 100px;
+    left: 300px;
+    height: 100px;
+    width: 100px;
+    background-color: rgba(0, 0, 0, 0.0);
+    cursor: pointer;
+}
+.th3{
+    border: solid 5px green; 
+    z-index: 3;
+    position: absolute;
+    top: 100px;
+    left: 80px;
+    height: 100px;
+    width: 100px;
+    background-color: rgba(0, 0, 0, 0.0);
+    cursor: pointer;
+}
+.t{
+    z-index: 3;
+    position: absolute;
+    top: 0px;
+    left: 0px;
+    height: 100px;
+    width: 100px;
+}
+.tb{
+    color: white;
+    position: absolute;
+    left: 100px;
+    bottom: 83%;
+}
+.tp{
+    color: white;
+    position: absolute;
+    top: 440px;
+    right: 100px;
+}
+.r{
+    width: 100px;
+    height: 100px;
+    margin-top: 0%;
+    margin-bottom: 0%;
+}
+#imgFulm{
+    width: 300px;
+    height: 300px;
+}
+@keyframes th2{
+    0%{
+        top: -100px;
+        left: -820px;
+    }
+    100%{
+        top: -100px;
+        left: -820px;
+    }
+}
+@keyframes th3{
+    0%{
+        top: 120px;
+        left: 720px;
+    }
+    100%{
+        top: 120px;
+        left: 720px;
+    }
+}
+.animation3{
+    animation: th2 2s ease-in-out forwards;
+}
+.animation4{
+    animation: th3 2s ease-in-out forwards;
+}
+.animation1{
+    animation: animazione1 2s ease-in-out forwards;
+}
+.animation2{
+    animation: animazione2 2s ease-in-out forwards;
+}
+.animation6{
+    animation: animazione4 1s ease-in-out forwards;
+}
+.animation5{
+    animation: animazione3 1s ease-in-out forwards;
+}
+.health4{
+    animation: health4 1s ease-in-out forwards;
+}
+.health3{
+    animation: health3 1s ease-in-out forwards;
+}
+.health2{
+    animation: health2 1s ease-in-out forwards;
+}
+.health1{
+    animation: health1 1s ease-in-out forwards;
+}
+.health0{
+    animation: health0 1s ease-in-out forwards;
+}
+.mossaFulmine{
+    animation: mossap 2s ease-in-out forwards;
+}
+.rotazione{
+    animation: rotation 2s ease-in-out infinite;
+}
+@keyframes mossap{
+    0%{
+        top: 5%;
+        right: 40px;
+    }
+    100%{
+        top: 60%;
+        left: 40px;
+    }
+}
+@keyframes rotation{
+    0%{
+        transform: scaleX(1);
+    }
+    50%{
+        transform: scaleX(-1);
+    }
+    100%{
+        transform: scaleX(1);
+    }
+}
+@keyframes health4{
+    0%{
+        background-image: url("../img/health4.png");
+    }
+    100%{
+        background-image: url("../img/health4.png");
+    }
+}
+@keyframes health3{
+    0%{
+        background-image: url("../img/health3.png");
+    }
+    100%{
+        background-image: url("../img/health3.png");
+    }
+}
+@keyframes health2{
+    0%{
+        background-image: url("../img/health2.png");
+    }
+    100%{
+        background-image: url("../img/health2.png");
+    }
+}
+@keyframes health1{
+    0%{
+        background-image: url("../img/health1.png");
+    }
+    100%{
+        background-image: url("../img/health1.png");
+    }
+}
+@keyframes health0{
+    0%{
+        background-image: url("../img/health0.png");
+    }
+    100%{
+        background-image: url("../img/health0.png");
+    }
+}
+@keyframes animazione1{
+    0%{
+        background-image: url("../img/pikachu_1-removebg-preview.png");
+    }
+    10%{
+        background-image: url("../img/pikachu_2-removebg-preview.png");
+    }
+    20%{
+        background-image: url("../img/pikachu_3-removebg-preview.png");
+    }
+    30%{
+        background-image: url("../img/pikachu_4-removebg-preview.png");
+    }
+    40%{
+        background-image: url("../img/pikachu_5-removebg-preview.png");
+    }
+    50%{
+        background-image: url("../img/pikachu_6-removebg-preview.png");
+    }
+    60%{
+        background-image: url("../img/pikachu_7-removebg-preview.png");
+    }
+    70%{
+        background-image: url("../img/pikachu_8-removebg-preview.png");
+    }
+    80%{
+        background-image: url("../img/pikachu_9-removebg-preview.png");
+    }
+    90%{
+        background-image: url("../img/pikachu_10-removebg-preview.png");
+    }
+    100%{
+        background-image: url("../img/pikachu_0-removebg-preview.png");
+    }
+}
+@keyframes animazione2{
+    0%{
+        background-image: url("../img/Archer_1-removebg-preview.png");
+    }
+    10%{
+        background-image: url("../img/Archer_2-removebg-preview.png");
+    }
+    20%{
+        background-image: url("../img/Archer_3-removebg-preview.png");
+    }
+    30%{
+        background-image: url("../img/Archer_4-removebg-preview.png");
+    }
+    40%{
+        background-image: url("../img/Archer_5-removebg-preview.png");
+    }
+    50%{
+        background-image: url("../img/Archer_6-removebg-preview.png");
+    }
+    60%{
+        background-image: url("../img/Archer_7-removebg-preview.png");
+    }
+    70%{
+        background-image: url("../img/Archer_8-removebg-preview.png");
+    }
+    80%{
+        background-image: url("../img/Archer_10-removebg-preview.png");
+    }
+    90%{
+        background-image: url("../img/Archer_9-removebg-preview.png");
+    }
+    100%{
+        background-image: url("../img/3DS_-_Shantae_and_the_Pirates_Curse_-_Archer_Right1-removebg-preview.png");
+    }
+}
+@keyframes animazione3{
+    0%{
+        background-image: url("../img/pikachupugno1-removebg-preview.png");
+    }
+    20%{
+        background-image: url("../img/pikachupugno2-removebg-preview.png");
+    }
+    40%{
+        background-image: url("../img/pikachupugno3-removebg-preview.png");
+    }
+    60%{
+        background-image: url("../img/pikachupugno4-removebg-preview.png");
+    }
+    80%{
+        background-image: url("../img/pikachupugno5-removebg-preview.png");
+    }
+    100%{
+        background-image: url("../img/pikachu_0-removebg-preview.png");
+    }
+}
+@keyframes animazione4{
+    0%{
+        background-image: url("../img/dannopika-removebg-preview.png");
+    }
+    100%{
+        background-image: url("../img/pikachu_0-removebg-preview.png");
+    }
+}
+@media screen and 
+(max-width: 1024px) {
+    .block2{
+        display: flex;
+        flex-direction: column;
+        justify-content: center;
+        align-items: center;
+        height: 500px;
+        width: 200px;
+        margin-top: 30px;
+        left: 20%;
+    }
+    .img{
+        height: 270px;
+        width: 290px;
+        position: absolute;
+        top: 0%;
+        animation: anim2 2s forwards;
+    }
+    .btn{
+        width: 100px;
+    }
+    .btn1{
+        width: 100px;
+    }
+    .btn2{
+        width: 100px;
+    }
+    .block3{
+        display: flex;
+        flex-direction: column;
+        justify-content: flex-start;
+        align-items: flex-start;
+        height: 700px;
+        width: 350px;
+        position: absolute;
+        top: 2%;
+        left: 0%;
+        background-color: rgba(0, 0, 0, 0.50);
+        padding: 0px;
+        overflow: scroll;
+        color: white;
+        font-size: xx-large;
+        border: 5px solid rgb(15, 29, 231);
+        border-radius: 25px;
+    }
+    body{
+        display: flex;
+        justify-content: center;
+        align-items: center;
+    }
+    .btn4{
+        position: fixed;
+        top: -5%;
+        left: 0%;
+        width: 40px;
+        font-size: 20px;
+    }
+    .h1{
+        left: 30%;
+    }
+    .img1{
+        left: 25%;
+        width: 200px;
+        height: 170px;
+    }
+    .block4{
+        width: 270px;
+        height: 170px;
+        position: absolute;
+        left: 0px;
+    }
+    .pikachu{
+        width: 270px;
+        height: 170px;
+        position: relative;
+        left: 15%;
+    }
+    .th{
+        width: 70px;
+        height: 70px;
+        top: 270px;
+        left: 200px;
+    }
+    .th1{
+        width: 70px;
+        height: 70px;
+        top: 270px;
+        left: 0px;
+    }
+    .th2{
+        width: 70px;
+        height: 70px;
+        top: 400px;
+        left: 200px;
+    }
+    .th3{
+        width: 70px;
+        height: 70px;
+        top: 400px;
+        left: 0px;
+    }
+    .block5{
+       width: 270px;
+       height: 170px;
+       position: absolute;
+       top: 470px;
+       left: 0px;  
+       
+    }
+    .bulbasaur{
+        width: 180px;
+        height: 150px;
+        position: relative;
+        top: 0%;
+    }
+    .t{
+        width: 100%;
+        height: 100%;
+    }
+    .tp{
+        display: none;
+    }
+    .tb{
+        display: none;
+    }
+    #hp{
+        width: 100px;
+        height: 100px;
+        background-image: url("../img/health5.png");
+        background-repeat: no-repeat;
+        background-size: cover;
+    }
+    .hp1{
+        position: absolute;
+        top: 640px;
+        left: 0px;
+        width: 270px;
+        height: 90px;
+    }
+    .bulbasaurface{
+        position: absolute;
+        top: 630px;
+        left: -10px;
+        width: 110px;
+        height: 110px;
+    }
+    .pikachuface{
+        width: 110px;
+        height: 105px;
+        position: absolute;
+        top: -10px;
+        left: -10px;
+    }
+    .th3:focus{
+        animation: th4 2s forwards;
+    }
+    .th2:focus{
+        top: 100px;
+        left: 120px;
+    }
+    .th1:focus{
+        top: 500px;
+        left: 120px;
+    }
+}
+

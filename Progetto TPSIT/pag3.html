@@ -1,0 +1,60 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta http-equiv="X-UA-Compatible" content="IE=edge">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Progetto</title>
+    <link rel="stylesheet" href="css/stile.css">
+    <link rel="icon" href="img/images-removebg-preview(1).png">
+    <script src="js/script.js" defer></script>
+</head>
+<body onload="loadingpag()">
+    <video autoplay muted loop id="myVideo">
+        <source src="video/pokeballBG.mp4" type="video/mp4">
+    </video>
+    <a class="btn4" href="index.html">Home</a>
+    <h1 class="tb">Mosse di Archer</h1>
+    <div id="hp">      
+    </div>
+    <h1 id="p1">Player 1:</h1>
+    <div id="hp2">      
+    </div>
+    <h1 id="p2">Player 2:</h1>
+    <div class="block4" id="bk5">
+    </div>
+    <h1 class="tp">Mosse di Pikachu</h1>
+    <button class="th" id="btn5">
+        <img class="t" src="img/thunder.png" alt="fulm">
+    </button>
+    <button class="th1" id="punch">
+        <img class="t" id="punch1" src="img/pugno.png" alt="pugno">
+    </button>
+    <div class="block5" id="bk6">
+        <img src="img/mossap-removebg-preview.png" alt="fulmine" style="display: none;" id="imgFulm">
+    </div>
+    <button class="th2" id="scratch">
+        <img class="t" id="scratch1" src="img/graffio.png" alt="graffio">
+    </button>
+    <button class="th3" id="btn6">
+        <img class="t" src="img/foglia.png" alt="foglia">
+    </button>
+    <div>
+        <span id="clock"></span>
+    </div>
+    <div id="mess" style="display: none;">
+        <span id="message">COLPO CRITICO!!!</span>
+    </div>
+    <div id="mess2" style="display: none;">
+        <span id="message2">Devi fare prima le 3 mosse comuni (leggi le regole nel menu principale)</span>
+    </div>
+    <div id="mess3" style="display: none;">
+        <span id="message3">Tocca al player <span id="turne"></span></span>
+    </div>
+    <div id="loading">
+        <div id="loader"></div>
+        <span id="message4" style="height: 100px;">loading...</span>
+    </div>
+
+</body>
+</html>
